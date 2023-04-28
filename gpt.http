@@ -1,0 +1,10 @@
+POST https://api.openai.com/v1/completions
+Content-Type: application/json
+Authorization: Bearer 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
+
+{
+  "model": "davinci",
+  "prompt": "what is the command for listing files in a directory in linux?",
+  "max_tokens": 100,
+  "temperature": 0.7
+}
